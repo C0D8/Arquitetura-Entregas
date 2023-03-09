@@ -7,7 +7,7 @@ public abstract class Mensagem {
     private User autor ;
 
 //    public Mensagem(){}
-    public Mensagem (User autor){
+    protected Mensagem (User autor){
         this.autor = autor;
     }
 
